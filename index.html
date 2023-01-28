@@ -19,13 +19,18 @@
             </div>
         </nav>
         <main>
-            <h2>Login</h2>
-            <label for="email" class="login-label">Email:</label>
-            <input type="email" class="login-input" name="email-input" placeholder="Email@email.com">
-            <label for="password" class="login-label">Password:</label>
-            <input type="password" class="login-input" name="password-input">
-            <button type="submit" class="submit-button">Submit</button>
-
+            <form class="login-form">
+                <h2 class="login-header">Login</h2>
+                <div class="email-group">
+                    <label for="email" class="login-label">Email:</label>
+                    <input type="email" class="login-input" name="email-input" placeholder="Email@email.com">
+                </div>
+                <div class="password-group">
+                    <label for="password" class="login-label">Password:</label>
+                    <input type="password" class="login-input" name="password-input">
+                </div>
+                <button type="submit" class="btn btn-primary login-button">Login</button>
+            </form>
         </main>
 
         <!-- Bootstrap Bundle with Popper Included -->
