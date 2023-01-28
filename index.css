@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+}
+nav{
+    display: flex;
+    background-color: rgb(54, 49, 49);
+    height: 5%;
+}
+.gmdb-main, .nav-button{
+    background-color: rgb(54, 49, 49);
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    width: 8%;
+    height: 98%;
+    border: none;
+}
+.nav-button{
+    font-size: 75%;
+}
+.nav-cluster{
+    width: 70%;
+}
+.search-cluster{
+    display: flex;
+    width: 30%;
+    justify-self: flex-end;
+    justify-content: space-evenly;
+}
+.search-bar{
+    width: 70%;
+    height: 90%;
+}
+.search-button{
+    width: 20%;
+    height: 90%;
+    background-color: rgb(54, 49, 49);
+    text-align: center;
+    font-size: 100%;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
